@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+    *{
+        box-sizing: border-box;
+        margin:0;
+        padding: 0;
+        background-color: #f9fafe;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 150px;
+}
+
+.nav_bar {
+    list-style: none;
+}
+
+.nav_bar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_bar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_bar li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 20px;
+    padding: 90px 150px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+a   {
+    padding: 9px 15px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+    padding: 9px 15px;
+}
+
+/* Footer */
+
